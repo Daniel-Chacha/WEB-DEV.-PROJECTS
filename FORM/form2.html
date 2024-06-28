@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1">
+        <meta name="author" content="Daniel Chacha " >
+        <title>A job application form</title>
+        <link rel="stylesheet" href="form2.css">
+    </head>
+    <body>
+        <header>
+            <h1>JOB APPLICATION FORM</h1>
+            <p>Kindly note that submission of false information will lead to automatic disqualification.</p>
+        </header>  <br>
+        <body>
+            <form action="">
+                <h2>Personalia</h2>
+                <label for="fname">First name</label>
+                <input type="text" name="fname" id="fname" required>
+
+                <label for="lname">Last name</label>
+                <input type="text" name="lname" id="lname" required>
+
+                <label for="myemail">Email</label>
+                <input type="email" name="myemail" id="myemail" required>  <br>  <br>  <br>
+
+                <label for="mynumber">Phone Number</label>
+                <input type="number" name="mynumber" id="mynumber" required>
+
+                <label for="mynationality">Nationality</label>
+                <input type="text" name="mynationality" id="mynationality" required>   
+
+                <label for="mytown">Town</label>
+                <input type="text" name="mytown" id="mytown" required>    <br> <br> <br>
+
+                <h2>Educational Background</h2>
+                <label for="higher">Higher Education Institution</label>
+                <input type="text" name="higher" id="higher"   required>   
+
+                <label for="certificate">Certificate</label>
+                <div class="custom">
+                    <span class="label">Choose File</span>
+                    <input type="file" class="input" name="certificate" id="certificate"  required> 
+                </div>
+                   <br>  <br>   <br>
+                
+                <h2>Work Experience</h2>  
+                <label for="employee">Most Recent Employer</label>
+                <input type="text" name="employee" id="employee"  required>
+
+                <label for="position">Job Title</label>
+                <input type="text" name="position" id="position" required>  <br>   <br>
+
+                <label for="startdate">Start Date</label>
+                <input type="date" name="startdate" id="startdate"  required>  
+
+                <label for="enddate">End Date(Ignore if you are still working) </label>
+                <input type="date" name="enddate" id="enddate" >   
+
+                <label for="reponsibilities">Key Responsibilities</label>
+                <textarea name="reponsibilities" id="reponsibilities"></textarea>    <br>   <br>  <br>
+               
+                <label for="letter">Upload your cover letter</label>
+                <div class="custom">
+                    <span class="label">Choose File</span>
+                    <input type="file" class="input" name="letter" id="letter"  required> 
+                </div>
+
+                <label for="certificate">Upload your Curriculum Vitae</label>
+                <div class="custom">
+                    <span class="label">Choose File</span>
+                    <input type="file" class="input" name="cv" id="cv"  required> 
+                </div>
+                
+                <p> <b>Are you available for work immediately?</b> </p>
+                <label for="availability">Yes</label>
+                <input type="radio" name="availability" id="availability">
+                <label for="availability">No</label>
+                <input type="radio" name="availability" id="availability">  <br>   <br>
+
+                <label for="comments"> <b>Any comments or additional details that you would like to provide:</b></label>  
+                <textarea name="comments" id="comments" placeholder="Optional"></textarea>  <br>   <br>  <br>   <br>
+            </form>
+
+            <div> <a href="form1.html">Go Back To Home Page</a></div>
+
+            <footer>
+                <p> &gt;&gt;&gt;&gt;&copy;Copyright 2024 All rights preserved&lt;&lt;&lt;&lt;</p>
+            </footer>
+        </body>
+        
+    </body>
+</html>

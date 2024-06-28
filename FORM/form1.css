@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: hsla(175, 100%, 50%, 1);
+}
+header{
+    text-align: center;
+    background-color: hsla(220, 100%, 10%, 0.5);
+    padding: 0.5px;
+    /* position: sticky; */
+    top: 0;
+    width: 100%;
+}
+img{
+    position: relative;
+    float: right ;
+    width: 240px;
+    height: auto;
+    border-radius: 50%;
+}
+
+header >h1{
+    text-decoration: underline ;
+    color: wheat;
+    font-size: 350%;
+    
+}
+header >p{
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline dashed;
+    font-size: 250%;
+}
+
+.vacancies{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    padding: 10px;
+}
+
+.vacancies >div{
+    background-color: hsla(220, 100%, 60%, 0.2);
+    text-align: center justify;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.vacancies >div h3{
+    background-color: hsla(220, 100%, 10%, 0.5);
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    text-decoration: underline 3px dotted;
+}
+
+.vacancies >div a:link{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+
+.vacancies >div a:visited{
+    color: brown;
+
+}
+
+.vacancies >div a:hover{
+    background-color: aliceblue;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.vacancies >div a:active{
+    color: white;
+    font-weight: bold;
+}
+
+
+.back_top a:hover{
+    color: red;
+    font-weight: bold;
+}
+
+.back_top{
+    text-align: center;
+    padding: auto;
+}
+
+
+footer{
+    text-align: center;
+    background-color: hsla(220, 100%, 10%, 0.5);
+    padding: 5px;
+    color: wheat;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:500px) {
+    header{
+        padding: 10px;
+    }
+    header >h1{
+        font-size: 300%;
+        text-align: left ;
+    }
+    img{
+        width: 150px;
+    }
+
+    .solar {grid-area: 1/span 2;}
+    .wind{grid-area: 2/span 2;}
+    .renewable{grid-area: 3/span 2;}
+    .energy{grid-area: 4/span 2;}  
+    .environmental{grid-area: 5/span 2;}
+    .project{grid-area: 6/span 2;}
+    .electrical{grid-area: 7/span 2;}
+    .marketing{grid-area: 8/span 2;}
+    .supply{grid-area: 9/span 2;}
+    .customer{grid-area: 10/span 2;}
+    
+}
