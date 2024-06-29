@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box
+}
+
+body{
+    background-color: hsl(0, 0%, 90%);
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    margin-top: 0px;
+    background-color: hsla(322, 100%, 33%, 1);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 400%;
+    margin: 0p;
+    width: 100%;
+    height: 70px;
+    padding: 0;
+    /* text-decoration: underline 2px; */
+    /* height: 100px; */
+}
+
+header >img{
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 8%;
+    padding: 2px;
+}
+
+header >p{
+    text-align: left;
+    width: 87%;
+    font-size: 25%;
+    font-weight: bold;
+}
+
+nav{
+    font-size: 150%;
+    text-align: center;
+    background-color: hsla(322, 100%, 33%, 1);
+    padding: 7px;
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    
+}
+nav> a{
+    background-color: black;
+    padding: 5px;
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+nav >a:hover{
+    background-color: white;
+    color: red;
+    font-weight: bold;
+}
+
+#front_image{
+    background: url(outside1.jpeg);
+    background-size: 100% 100%;
+    height: 480px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 120%;
+    
+}
+#front_image >p{
+    background-color: hsla(216, 36%, 0%, 0.5);
+    background-attachment: fixed;
+    margin: 5px;
+}
+
+main >h2{
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    color: hsla(322, 100%, 33%, 1);
+    position: sticky;
+    top: 110px;
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+main >h3{
+    text-align: center;
+    background-color: hsla(322, 100%, 33%, 1);
+    color: white;
+    padding: 5px;
+    width: 100%;
+    /* position: absolute;
+    right: 27%; */
+}
+
+picture{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+picture >img{
+    width: 260px;
+    height: 200px;
+}
+figcaption{
+    text-align: center;
+    background-color: hsla(322, 100%, 33%, 0.7);
+    margin-bottom: 0;
+}
+
+#main_food #price{
+    font-weight: bolder;
+}
+
+#drinks #price{
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.batch1, .batch2,.batch3, .batch4, .batcha,.batchb,.batchc{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#food1, #food2,#food3,#food4,#food5,#food6,#food7,#food8,#food9,#food10,#food11,#food12,#food13,#food14,#food15,#food16,#drink1,#drink2,#drink3,#drink4,#drink5,#drink6,#drink7,#drink8,#drink9,#drink10,#drink11,#drink12{
+    flex: 20%;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: hsla(322, 100%, 33%, 1);
+    text-align: center;
+    padding: 10px;
+}
+
+
