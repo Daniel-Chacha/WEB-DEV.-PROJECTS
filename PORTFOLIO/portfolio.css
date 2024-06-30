@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+}
+
+header{
+    background-color: hsla(245, 100%, 44%, 1);
+    padding-top: 1px ;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 1350px;
+}
+nav{
+    position: absolute;
+    top: 30px;
+    right: 24px;
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-right: 40px;
+}
